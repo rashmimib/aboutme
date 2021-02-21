@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+header{
+    background-image: url(res2.jpg);
+    background-attachment: fixed;
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    }
+    nav{
+        height: 8vh;
+        display:flex;
+        justify-content: space-around;
+        position: fixed;
+        width: 130%;
+        min-height: 1vh;
+        background-color:rgb(15, 15, 15);
+    }
+    
+    .nav-links{
+        margin: 0;
+        padding: 0;
+        float: right ;
+        list-style-type:none;
+        margin-top: 2px;
+    }
+     .nav-links li {
+        display:inline-block;
+        list-style: none;
+        line-height: 30px;
+        letter-spacing: 3px;
+    }
+    .nav-links li a{
+        text-decoration: none;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:#989898;
+        padding: 5px 20px;
+        border: none;
+        transition: 0.6s ease;
+    }
+    ul li a:hover{
+        background-color:palevioletred;
+        color: #000;
+        font-weight:bold; 
+    }
+    .title{
+        position: absolute;
+        top: 12%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .title h1{
+        color: black;
+        font-size: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .Pcollege{
+        padding: 5px 90px;
+        box-sizing: border-box;
+        border-radius: 2px;
+        text-align: center;
+        box-shadow: 0 0 20px #000000b3;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .Pcollege h2{
+        color: whitesmoke;
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,Verdana, sans-serif;
+    }
+    .Pcollege h1{
+        color: black;
+        font-size: large;
+    }
+    .college{
+        padding: 5px 90px;
+        box-sizing: border-box;
+        border-radius: 2px;
+        text-align: center;
+        box-shadow: 0 0 20px #000000b3;
+        position: absolute;
+        top: 49%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .college h2{
+        color: whitesmoke;
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,Verdana, sans-serif;
+    }
+    .college h1{
+        color: black;
+        font-size: large;
+    }
+    .hschool{
+        padding: 5px 90px;
+        box-sizing: border-box;
+        border-radius: 2px;
+        text-align: center;
+        box-shadow: 0 0 20px #000000b3;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .hschool h2{
+        color: whitesmoke;
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,Verdana, sans-serif;
+    }
+    .hschool h1{
+        color: black;
+        font-size: large;
+    }
+    .school{
+        padding: 5px 90px;
+        box-sizing: border-box;
+        border-radius: 2px;
+        text-align: center;
+        box-shadow: 0 0 20px #000000b3;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .school h2{
+     color: whitesmoke;
+     font-size: 30px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,Verdana, sans-serif;
+     }
+    .school h1{
+     color: black;
+     font-size: large;
+    }
